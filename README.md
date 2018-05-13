@@ -14,6 +14,7 @@ github的个人博客
 ### 使用说明
 #### 目录说明
 * _includes：版权、页脚、广告等。
+* _includes/categories.html：分类目录
 * _layouts：博客布局。
 * _posts：文章所在目录，里面按分类目录存放，可自定义目录。
 * assets：图片、文件存放目录，可建不同目录。
@@ -26,7 +27,7 @@ github的个人博客
 #### _config.yml
 * excerpt_separator：文章摘要分隔符，本模板为“<!-- more -->”，即markdown文件中必须带此标签才能正确分隔，可自行修改。
 * github、email、name、domain等，根据实际情况修改。
-* all_categories：分类名称、地址，根据示例添加即可。
+* all_categories：页面顶层分类名称、地址，根据示例添加即可。
 * paginate：一页文章展示数量，默认为5，多于此数会显示下一页。
 * timezone：时区，默认是东八区，一般不需要修改。
 * 其它待补充。
