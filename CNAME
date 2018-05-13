@@ -1,0 +1,7 @@
+# 这是添加自已的域名，可以带www，也可以不带
+# 如www.latelee.org或latelee.org
+# 访问形式则是http://www.latelee或http://latelee.org
+# 另外，也可以是resume.latelee.org，访问地址为http://resume.latelee.org
+# 以上地址，必须在域名管理后台添加cname记录到github地址才行。
+# 而github必须是<用户名>.github.io的形式。
+# 因此，要在github上自行注册一个未被占用的名称。
