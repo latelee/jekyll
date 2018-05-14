@@ -10,8 +10,8 @@ github: latelee
 author: "李迟" # 作者名称
 email: li@latelee.org # 作者邮箱
 name: "李迟的个人主页"
-url: https://latelee.github.io/
-domain: https://latelee.github.io/
+url: https://latelee.github.io/jekyll_blog/
+domain: https://latelee.github.io/jekyll_blog/
 all_categories: [
 ["defaul", "默认","/posts/default.html"],
 ["about", "关于","/about.html"],
