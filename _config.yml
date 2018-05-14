@@ -3,11 +3,12 @@ rouge: pygments
 kramdown:
   input: GFM
 permalink: /posts/:title.html
+# 文章分隔符
 excerpt_separator: "<!-- more -->"
 
 github: latelee
-author: "李迟"
-email: li@latelee.org
+author: "李迟" # 作者名称
+email: li@latelee.org # 作者邮箱
 name: "李迟的个人主页"
 url: https://latelee.github.io/
 domain: https://latelee.github.io/
@@ -15,6 +16,7 @@ all_categories: [
 ["defaul", "默认","/posts/default.html"],
 ["about", "关于","/about.html"],
 ]
+# 一个页面显示文件数量
 paginate: 5
 paginate_path: "posts/page:num"
 timezone: Asia/Shanghai
