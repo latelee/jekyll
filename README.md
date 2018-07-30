@@ -1,5 +1,6 @@
 github的个人博客
 ================
+
 ### 创建步骤
 * 申请注册github账号，在仓库内建立名为<主页名称>.github.io的仓库，如latelee.github.io。注意，主页名与github账号名完全一致，才能使用xxx.github.io的形式，如果不是，则使用<用户名>.github.io/<仓库名>的形式访问。
 * 克隆别人现成的模板到这个仓库（或者fork别人的模板仓库）。github主页使用Jekyll，网上有很多模板。
@@ -19,7 +20,7 @@ github的个人博客
 * _posts：文章所在目录，里面按分类目录存放，可自定义目录。
 * assets：图片、文件存放目录，可建不同目录。
 * css：css样式目录
-* posts：分类目录
+* posts：分类目录，在此目录参考已有md文件创建分类，然后在_posts新建该分类的子目录。
 * favicon.ico：网站标志图片，由可png/jpeg生成ico格式。
 * Robots.txt：如果不希望被搜索引擎搜索，则设置，默认是不被抓取。
 * CNAME：自定义域名，必须要在域名后台设置cname为github地址。
@@ -41,6 +42,6 @@ The CNAME `#这是添加自已的域名，可以带www，也可以不带` is not
 ```
 
 #### 其它
-在CNAME文件中添加自已的域名，可以带www（或其它字符），也可以不带。如www.latelee.org或latelee.org，访问形式则是http://www.latelee或http://latelee.org。另外，也可以是resume.latelee.org，访问地址为http://resume.latelee.org。以上地址，必须在域名管理后台添加cname记录到github地址才行。而github必须是<用户名>.github.io的形式。因此，要在github上自行注册一个未被占用的名称。  
+在CNAME文件中添加自已的域名，可以带www（或其它字符），也可以不带。如www.latelee.org或latelee.org，访问形式则是http://www.latelee或http://latelee.org。另外，也可以是resume.latelee.org，访问地址为http://resume.latelee.org。以上地址，必须在域名管理后台添加cname记录到github地址才行。而github必须是<用户名>.github.io的形式。因此，要在github上自行注册一个未被占用的名称。注意，本节提到的IP地址，不一定能正常访问。
 
 

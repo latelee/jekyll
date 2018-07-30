@@ -1,6 +1,5 @@
 ---
 layout: index
-title: "迟思堂工作室"
 ---
 
 <!-- Loop output paged posts -->
@@ -43,7 +42,7 @@ title: "迟思堂工作室"
     </li>
     {% elsif page == 1 %}
     <li>
-      <a href="/">{{ page }}</a> <!-- 首页 -->
+      <a href="/">{{ page }}</a>
     </li>
     {% else %}
     <li>
@@ -64,3 +63,28 @@ title: "迟思堂工作室"
 </ul>
 {% endif %}
 </div>
+
+<!-- Pager indicator -->
+<!-- 
+<ul class="pager">
+  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+  <li class="previous">
+    <a href="/">
+      &larr; 上一页
+    </a>
+  </li>
+  {% else %}
+  <li class="previous">
+    <a href="/posts/page{{ paginator.previous_page }}/index.html">
+      &larr; 上一页
+    </a>
+  </li>
+  {% endif %} {% endif %} {% if paginator.next_page %}
+  <li class="next">
+    <a href="/posts/page{{ paginator.next_page }}/index.html">
+      下一页 &rarr;
+    </a>
+  </li>
+  {% endif %}
+</ul>
+-->

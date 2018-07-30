@@ -3,27 +3,37 @@ rouge: pygments
 kramdown:
   input: GFM
 permalink: /posts/:title.html
-# 文章分隔符
+
+# 文章摘要分隔符
 excerpt_separator: "<!-- more -->"
 
+title: 迟思堂工作室
+subtitle: 李迟的个人主页
 github: latelee
-author: "李迟" # 作者名称
-email: li@latelee.org # 作者邮箱
-name: "李迟的个人主页"
+author: "李迟"
+email: li@latelee.org
+
+sit_info: 宠辱不惊，看庭前花开花落；去留无意，望天空云卷云舒
+
+# 地址，根据实际情况写
 url: https://latelee.github.io/jekyll_blog/
-domain: https://latelee.github.io/jekyll_blog/
+
+# 适用于本地搭建
+#baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "http://192.168.31.212:4000/" # the base hostname & protocol for your site
+
 all_categories: [
-["defaul", "默认","/posts/default.html"],
-["about", "关于","/about.html"],
+["常用小工具", "常用小工具","/pages/常用小工具.html"],
+["about", "关于","/pages/about.html"]
 ]
 # 一个页面显示文件数量
 paginate: 5
 paginate_path: "posts/page:num"
-timezone: Asia/Shanghai
+timezone: Asia/Shanghai # 时区为东八区
 
 collections:
   docs:
     output: true
 
-gems:
- - jekyll-paginate
+#gems:
+# - jekyll-paginate

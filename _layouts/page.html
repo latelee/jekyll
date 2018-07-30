@@ -2,8 +2,13 @@
 layout: default 
 --- 
 {{ content }}
-<hr>
-<!-- Blog Comments -->
-<div class="media">
-  {% include comment.html %} 
+
+<div>
+	{% if page.todo %}
+	<div class="tbc">{{ page.todo }}</div>
+	{% else %}
+	<div class="eof"></div>
+	{% endif %}
 </div>
+
+<hr>
